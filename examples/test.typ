@@ -1,4 +1,4 @@
-#import "init.typ": my_super_template
+#import "@local/fasthesis:0.1.0": my_super_template
 
 #show: my_super_template.with(
   font: "OpenDyslexic",
