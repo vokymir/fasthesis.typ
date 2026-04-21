@@ -1,6 +1,8 @@
 #import "init.typ": my_super_template
 
-#show: my_super_template.with()
+#show: my_super_template.with(
+  font: "OpenDyslexic",
+)
 
 #set heading(numbering: "a.")
 
