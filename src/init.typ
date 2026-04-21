@@ -2,6 +2,7 @@
 
 #let my_super_template(
   font: "WhichFontToUse",
+  be_funny: false,
   body,
 ) = {
   if font == "WhichFontToUse" {
@@ -15,5 +16,9 @@
   show regex("TODO(.*)"): it => text(fill: red, weight: "bold")[#it]
   set heading(numbering: "1.")
 
+  if be_funny {
+    set text(fill: green)
+    [yeeeey]
+  }
   body
 }

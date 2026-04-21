@@ -1,0 +1,23 @@
+# more info: https://github.com/typst/packages/blob/main/docs/manifest.md
+
+[package]
+name = "fasthesis"
+version = "0.1.0"
+entrypoint = "src/main.typ"
+authors = ["Voky"]
+license = "MIT"
+description = "Community port of the official ZCU/FAV thesis LATEX template."
+repository = "https://github.com/vokymir/fasthesis.typ"
+keywords = ["fav", "zcu"]
+categories = ["thesis", "report"]
+disciplines = ["computer-science", "engineering", "mathematics", "physics"]
+#todo
+# homepage = # github pages?, kekstein pages?
+# compiler = # min compiler version
+# exclude = # probably nothing? the font is forbidden
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+#todo
+# thumbnail = # path relative to package root, PNG

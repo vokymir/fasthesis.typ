@@ -16,6 +16,11 @@ co to je?
 
 _toto je kurzivou_
 
+#show: my_super_template.with(
+  font: "ubuntu",
+  be_funny: true,
+)
+
 #let ss = 18pt
 #let pat = tiling(
   size: (ss, ss),
